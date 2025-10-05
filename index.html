@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Next Level Exteriors — Roofing & Siding</title>
+  <meta name="description" content="Next Level Exteriors — Roof repairs, full roof installation, siding, gutters and decks in MA, NH & RI." />
+  <meta name="theme-color" content="#0a66a3">
+
+  <!-- Structured Data for Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Next Level Exteriors",
+    "telephone": "+1-857-230-0970",
+    "email": "nlexteriors25@gmail.com",
+    "areaServed": ["Massachusetts","New Hampshire","Rhode Island"],
+    "description": "Roof repairs, full roof installation, siding, gutters, and decks.",
+    "url": "."
+  }
+  </script>
+
+  <style>
+    :root{
+      --primary:#0a66a3; --accent:#1f6fb8; --muted:#6b7280; --bg:#f7f9fb; --card:#ffffff; --radius:12px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:#0b1220;line-height:1.5;font-size:16px}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{background:linear-gradient(90deg,var(--primary),var(--accent));color:#fff;padding:18px 0;position:sticky;top:0;z-index:40}
+    .nav {display:flex;align-items:center;justify-content:space-between;padding:0 16px;max-width:1100px;margin:0 auto}
+    .brand{display:flex;gap:12px;align-items:center;font-weight:700}
+    .brand .logo{width:44px;height:44px;border-radius:8px;background:#fff55;display:flex;align-items:center;justify-content:center;color:var(--primary);font-weight:800}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    nav a{color:rgba(255,255,255,0.95);text-decoration:none;font-weight:600}
+    .cta-top{display:flex;gap:12px;align-items:center}
+    .phone-btn{background:#fff;color:var(--primary);padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:700}
+
+    .hero{padding:56px 16px 36px}
+    .hero-grid{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center}
+    .hero h1{font-size:32px;margin:0 0 8px}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .primary-btn{background:var(--primary);color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block}
+    .secondary-btn{background:transparent;border:2px solid var(--primary);color:var(--primary);padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+
+    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 6px 20px rgba(12,30,50,0.06)}
+    .quick-contact{display:flex;flex-direction:column;gap:12px}
+
+    .services{padding:36px 16px}
+    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .service{padding:18px;border-radius:12px;background:linear-gradient(180deg,#ffffff,#f6fbff);border:1px solid #e7eef7}
+    .service h3{margin:0 0 6px} .service p{margin:0;color:var(--muted)}
+
+    .gallery{padding:36px 16px}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .gallery img{width:100%;height:200px;object-fit:cover;border-radius:8px;display:block;background:#e6ebf0}
+
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:36px 16px;align-items:center}
+    .about p{color:var(--muted)} .testi{background:linear-gradient(180deg,#fff,#fbfdff);padding:14px;border-radius:12px;border:1px solid #eef6fb}
+
+    .contact{padding:36px 16px}
+    form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    form input, form textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #d6dde6}
+    form textarea{min-height:140px;resize:vertical;grid-column:1/-1}
+    .form-actions{grid-column:1/-1;display:flex;gap:8px;align-items:center}
+    .muted{color:var(--muted);font-size:14px}
+
+    footer{padding:20px 16px;text-align:center;color:var(--muted);font-size:14px}
+
+    @media (max-width:900px){
+      .hero-grid{grid-template-columns:1fr; text-align:center}
+      .hero-grid > .card{order:2}
+      .services-grid{grid-template-columns:repeat(2,1fr)}
+      .gallery-grid{grid-template-columns:repeat(2,1fr)}
+      .about{grid-template-columns:1fr}
+      nav ul{display:none}
+    }
+    @media (max-width:520px){
+      .services-grid{grid-template-columns:1fr}
+      .gallery img{height:150px}
+      header .nav{padding:0 10px}
+    }
+    .caps{font-size:12px;letter-spacing:1px;color:var(--muted);font-weight:700}
+    .phone{font-weight:800;color:var(--primary)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav container" role="navigation" aria-label="Main navigation">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">N</div>
+        <div>
+          <div style="font-size:14px;opacity:0.95">Next Level Exteriors</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.9)">Roofing • Siding • Gutters • Decks</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cta-top">
+        <a class="phone-btn" href="tel:+18572300970">Call: (857) 230-0970</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-grid">
+        <div>
+          <p class="caps">Serving Massachusetts · New Hampshire · Rhode Island</p>
+          <h1>Next Level Exteriors — Roofing & Siding Pros</h1>
+          <p>Fast roof repairs, full roof installations, high-quality siding, gutters, and decks — licensed professionals, superior materials, and dependable service across MA, NH & RI.</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a class="primary-btn" href="#contact">Request a Free Quote</a>
+            <a class="secondary-btn" href="tel:+18572300970">Call (857) 230-0970</a>
+          </div>
+          <div style="margin-top:18px;color:var(--muted);font-size:14px">
+            <strong>Email:</strong> <a href="mailto:nlexteriors25@gmail.com">nlexteriors25@gmail.com</a>
+          </div>
+        </div>
+
+        <aside class="card">
+          <div style="display:flex;flex-direction:column;gap:12px" aria-hidden="false">
+            <div style="font-weight:800;font-size:18px">Quick Contact</div>
+            <div class="quick-contact">
+              <div class="muted">Call or text for emergency repairs</div>
+              <a class="primary-btn" style="display:inline-block;width:100%;text-align:center" href="tel:+18572300970">Call Now — (857) 230-0970</a>
+              <div style="display:flex;gap:8px;">
+                <a class="secondary-btn" href="mailto:nlexteriors25@gmail.com">Email Us</a>
+                <a class="secondary-btn" href="#contact">Get a Quote</a>
+              </div>
+              <div style="font-size:13px;color:var(--muted)">We typically respond within 24 hours. For emergency roofing repairs call or text.</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="services container" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <p class="muted">Experienced crews. Quality materials. Clear pricing.</p>
+      <div class="services-grid" style="margin-top:18px">
+        <article class="service"><h3>Roof Repairs</h3><p>Leak diagnostics, shingle replacement, flashing repair, storm damage emergency response.</p></article>
+        <article class="service"><h3>Full Roof Installation</h3><p>Complete roof replacements with asphalt shingles, metal, and premium roofing systems — lifetime options available.</p></article>
+        <article class="service"><h3>Siding</h3><p>Vinyl, fiber cement, and composite siding installations and repairs — boost curb appeal & energy efficiency.</p></article>
+        <article class="service"><h3>Gutters</h3><p>Seamless gutters, gutter guards, downspouts, and drainage solutions to protect your foundation.</p></article>
+        <article class="service"><h3>Decks</h3><p>Design, construction and repair of wood & composite decks — built to last with modern finishes.</p></article>
+        <article class="service"><h3>Inspections & Estimates</h3><p>Free curbside estimates and detailed inspection reports for insurance and homeowners.</p></article>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery container" aria-label="Project gallery">
+      <h2>Project Gallery</h2>
+      <p class="muted">These are sample images. Replace the files in the <code>/images/</code> folder with your real project photos using the same filenames to keep the gallery working.</p>
+      <div class="gallery-grid" style="margin-top:14px">
+        <img src="images/roof1.jpg" alt="Roof project 1">
+        <img src="images/roof2.jpg" alt="Roof project 2">
+        <img src="images/siding1.jpg" alt="Siding project 1">
+        <img src="images/gutters.jpg" alt="Gutters project">
+        <img src="images/deck.jpg" alt="Deck project">
+        <img src="images/before-after.jpg" alt="Before and after">
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <div>
+        <h2>About Next Level Exteriors</h2>
+        <p class="muted">Next Level Exteriors delivers dependable exterior contracting across Massachusetts, New Hampshire, and Rhode Island. We focus on fast, high-quality workmanship, transparent pricing, and excellent customer service. Our teams are fully insured and trained to follow industry best practices.</p>
+        <ul style="margin-top:12px;color:var(--muted)">
+          <li>Licensed & insured crews</li>
+          <li>Free, no-pressure estimates</li>
+          <li>Workmanship guarantees and material warranties</li>
+        </ul>
+        <p style="margin-top:12px"><strong>Phone:</strong> <a class="phone" href="tel:+18572300970">(857) 230-0970</a><br>
+        <strong>Email:</strong> <a href="mailto:nlexteriors25@gmail.com">nlexteriors25@gmail.com</a></p>
+      </div>
+      <div>
+        <div class="testi">
+          <strong>Customer Testimonial</strong>
+          <p style="margin:8px 0;color:var(--muted)">&quot;Fast, professional, and affordable. Our roof looks brand new — the crew cleaned up perfectly. Highly recommend Next Level Exteriors.&quot;</p>
+          <div style="font-size:13px;color:var(--muted)">— A satisfied homeowner, MA</div>
+        </div>
+        <div style="margin-top:12px" class="testi">
+          <strong>Insurance Work</strong>
+          <p style="margin:8px 0;color:var(--muted)">We work with insurance companies for storm and wind damage claims. We can provide documented inspections and photos for your claim.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact & Free Quote</h2>
+      <p class="muted">Call or text (857) 230-0970 — or use the form below. We serve MA, NH & RI.</p>
+      <form id="quoteForm" onsubmit="return handleFormSubmit(event)">
+        <input type="text" id="name" name="name" placeholder="Full name" required>
+        <input type="tel" id="phone" name="phone" placeholder="Phone (e.g. (857) 230-0970)" required>
+        <input type="email" id="email" name="email" placeholder="Email (optional)">
+        <input type="text" id="address" name="address" placeholder="Property address or town">
+        <textarea id="message" name="message" placeholder="Tell us about the job (roof repair, full install, siding details, etc.)" required></textarea>
+        <div class="form-actions">
+          <button type="submit" class="primary-btn">Send Request</button>
+          <button type="button" onclick="openMailto()" class="secondary-btn">Open in Email App</button>
+          <div style="margin-left:auto" class="muted">Or call: <a href="tel:+18572300970">(857) 230-0970</a></div>
+        </div>
+        <div id="formMessage" class="muted" role="status" aria-live="polite" style="margin-top:8px"></div>
+      </form>
+      <div style="margin-top:18px" class="card">
+        <strong>Service Area</strong>
+        <p class="muted" style="margin:6px 0">Massachusetts · New Hampshire · Rhode Island</p>
+        <div style="margin-top:8px">
+          <iframe title="service-area-placeholder" style="width:100%;height:180px;border:0;border-radius:8px" src="https://maps.google.com/maps?q=Massachusetts+USA&t=&z=7&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Next Level Exteriors — Serving MA, NH & RI • Phone: <a href="tel:+18572300970">(857) 230-0970</a> • Email: <a href="mailto:nlexteriors25@gmail.com">nlexteriors25@gmail.com</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        const target = document.querySelector(this.getAttribute('href'));
+        if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth',block:'start'}); }
+      });
+    });
+    const FORM_ENDPOINT = ""; // Replace with Formspree endpoint if desired
+    async function handleFormSubmit(evt){
+      evt.preventDefault();
+      const form = evt.target;
+      const statusEl = document.getElementById('formMessage');
+      if(FORM_ENDPOINT){
+        try{
+          const formData = new FormData(form);
+          const res = await fetch(FORM_ENDPOINT, {method:'POST', body: formData});
+          if(res.ok){ statusEl.textContent='Thanks — your request was sent. We will contact you shortly.'; form.reset(); }
+          else { statusEl.textContent='There was an issue sending your request. Please call (857) 230-0970.'; }
+        }catch(err){ statusEl.textContent='Error sending form — try the "Open in Email App" button or call us.'; }
+        return false;
+      }
+      openMailto();
+      return false;
+    }
+    function openMailto(){
+      const get=(id)=>encodeURIComponent(document.getElementById(id).value||'');
+      const subject=encodeURIComponent('Quote Request from '+(document.getElementById('name').value||'Website Visitor'));
+      const body=encodeURIComponent([
+        'Name: '+get('name'),
+        'Phone: '+get('phone'),
+        'Email: '+get('email'),
+        'Address/Town: '+get('address'),
+        '', 'Message:', decodeURIComponent(get('message'))
+      ].join('\n'));
+      window.location.href='mailto:nlexteriors25@gmail.com?subject='+subject+'&body='+body;
+    }
+  </script>
+</body>
+</html>
